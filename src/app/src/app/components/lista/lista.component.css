@@ -1,0 +1,20 @@
+.cabezal{
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.table-striped tbody tr:nth-of-type(odd){
+    background-color: #0b6896;
+    color: #fff;
+}
+.table-striped tbody tr:nth-of-type(even){    
+    color: #0b6896;
+}
+
+.nav-tabs .nav-link{
+    color: #29C2DE;
+}
+
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+    color: #0b6896 !important;
+}
